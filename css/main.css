@@ -8,6 +8,7 @@
 h1 {
 	font-size: 32px;
   font-family: Palatino, 'Palatino Linotype', serif;color: rgb(46,105,163);
+  margin-top: 20px;
   }
 nav {
   background-color: #FFF;
@@ -17,8 +18,12 @@ nav li {
   margin: 0;
   padding: 0 10px;
   display: inline
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
 }
 
 nav ul {
   display: inline;
+ 
 }
