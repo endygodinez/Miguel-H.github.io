@@ -11,12 +11,13 @@ h1 {
   margin-top: 20px;
   }
 .nav {
-margin:40px;
+margin:0;
 height:10px;
 background:#14f4da;
 }
 .nav ul {
   display: inline;
+  position:relative;
  
 }
 .nav ul li {
