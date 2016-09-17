@@ -32,6 +32,11 @@ background-color:#11e3ca;
 color:blue;
 text-decoration:none;	
 }
+.nav ul li a,visited {
+display:block;
+padding:10px;
+text-decoration:none;
+}
 .nav ul li a:hover {
 	color:white;
 	
