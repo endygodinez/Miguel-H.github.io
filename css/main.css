@@ -13,8 +13,7 @@ h1 {
 .nav {
 margin:30px;
 height:20px;
-  
-  background:#a7e0ee;
+background:#0ec5ee;
 }
 .nav ul {
   display: inline;
@@ -24,7 +23,10 @@ height:20px;
   margin: 0;
   padding: 20px;
   display: inline
-   
+  
+}
+.nav ul li:hover {
+background:#1bd7d4;
 }
 .nav ul li a {
 color:blue;
