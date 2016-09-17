@@ -30,10 +30,9 @@ background:#14f4da;
 color:blue;
 text-decoration:none;	
 }
- 
-}
 .nav ul li a:hover {
-	color:white;
+color:white;
+
 	
 }
 .nav ul li: hover ul {
