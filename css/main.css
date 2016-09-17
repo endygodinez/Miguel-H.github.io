@@ -16,36 +16,38 @@ background:#14f4da;
 }
 .nav ul {
   display: inline;
+  padding:0;
+  margin:0;
   position:relative;
- 
-}
+ }
 .nav ul li {
-  margin: 0;
-  padding: 20px;
   display: inline
-  
+  }
+.nav ul li:hover {
+background-color:#11e3ca;
 }
-
-.nav ul li a {
+.nav ul li a,visited {
 color:blue;
-text-decoration:none;	
+padding:15px;
+text-decoration:none;
 }
 .nav ul li a:hover {
 color:white;
-
-	
 }
-.nav ul li: hover ul {
+.nav ul li:hover ul {
 display:block;
 }
 .nav ul ul {
 display:none;	
 position:absolute;
-background-color:#11e3ca;
+ 
 }
 .nav ul ul li {
 display:block;	
 }
 .nav ul ul li a,visted {
-color:#11e3ca;
+color:blue;
+}
+.nav ul ul li a:hover {
+color:white;
 }
