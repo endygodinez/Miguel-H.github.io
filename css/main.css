@@ -21,13 +21,13 @@ background:#14f4da;
   position:relative;
  }
 .nav ul li {
-  display: inline-block
+  display: inline
   }
 .nav ul li:hover {
 background-color:#11e3ca;
 }
 .nav ul li a,visited {
-display:block;
+display:inline-block;
 color:blue;
 padding:15px;
 text-decoration:none;
