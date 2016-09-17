@@ -13,7 +13,7 @@ h1 {
 .nav {
 margin:30px;
 height:20px;
-background:#0ec5ee;
+background:#14f4da;
 }
 .nav ul {
   display: inline;
@@ -26,13 +26,23 @@ background:#0ec5ee;
   
 }
 .nav ul li:hover {
-background:#1bd7d4;
+background-color:#11e3ca;
 }
 .nav ul li a {
 color:blue;
-	
+text-decoration:none;	
 }
 .nav ul li a:hover {
 	color:white;
 	
+}
+.nav ul li: hover ul {
+display:block;
+}
+.nav ul ul {
+position:absolute;
+background-color:#11e3ca;
+}
+.nav ul ul li {
+display:block;	
 }
