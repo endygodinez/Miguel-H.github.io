@@ -27,6 +27,7 @@ background:#14f4da;
 background-color:#11e3ca;
 }
 .nav ul li a,visited {
+display:block;
 color:blue;
 padding:15px;
 text-decoration:none;
@@ -40,6 +41,7 @@ display:block;
 .nav ul ul {
 display:none;	
 position:absolute;
+background-color:#11e3ca;
  
 }
 .nav ul ul li {
