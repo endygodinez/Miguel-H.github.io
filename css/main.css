@@ -10,18 +10,27 @@ h1 {
   font-family: Palatino, 'Palatino Linotype', serif;color: rgb(46,105,163);
   margin-top: 20px;
   }
-nav {
+.nav {
+margin:30px;
+height:20px;
   background-color: #FFF;
+  background:#a7e0ee;
 }
-
-nav li {
+.nav ul {
+  display: inline;
+ 
+}
+.nav ul li {
   margin: 0;
   padding: 0 10px;
   display: inline
    
 }
-
-nav ul {
-  display: inline;
- 
+.nav ul li a {
+color:blue;
+	
+}
+.nav ul li a:hover {
+	color:white;
+	
 }
