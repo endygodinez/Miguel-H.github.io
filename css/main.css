@@ -21,7 +21,7 @@ background:#14f4da;
   position:relative;
  }
 .nav ul li {
-  display: inline
+  display: inline-block
   }
 .nav ul li:hover {
 background-color:#11e3ca;
@@ -51,5 +51,5 @@ display:block;
 color:blue;
 }
 .nav ul ul li a:hover {
-color:blue;
+color:white;
 }
