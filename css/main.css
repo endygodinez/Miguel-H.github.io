@@ -13,7 +13,7 @@ h1 {
 .nav {
 margin:30px;
 height:20px;
-  background-color: #FFF;
+  
   background:#a7e0ee;
 }
 .nav ul {
@@ -21,7 +21,7 @@ height:20px;
  
 }
 .nav ul li {
-  margin: 5px;
+  margin: 0;
   padding: 20px;
   display: inline
    
