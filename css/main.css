@@ -11,8 +11,8 @@ h1 {
   margin-top: 20px;
   }
 .nav {
-margin:30px;
-height:20px;
+margin:40px;
+height:10px;
 background:#14f4da;
 }
 .nav ul {
@@ -22,7 +22,7 @@ background:#14f4da;
 .nav ul li {
   margin: 0;
   padding: 20px;
-  display: inline
+  display: inline-block
   
 }
 .nav ul li:hover {
@@ -32,10 +32,7 @@ background-color:#11e3ca;
 color:blue;
 text-decoration:none;	
 }
-.nav ul li a,visited {
-display:block;
-padding:10px;
-text-decoration:none;
+ 
 }
 .nav ul li a:hover {
 	color:white;
@@ -51,4 +48,7 @@ background-color:#11e3ca;
 }
 .nav ul ul li {
 display:block;	
+}
+.nav ul ul li a,visted {
+color:#11e3ca;
 }
