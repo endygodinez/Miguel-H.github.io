@@ -42,6 +42,7 @@ display:block;
 display:none;	
 position:absolute;
 background-color:#11e3ca;
+min-width:100px;
  
 }
 .nav ul ul li {
