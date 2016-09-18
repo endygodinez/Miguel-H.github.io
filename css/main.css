@@ -36,7 +36,7 @@ text-decoration:none;
 color:white;
 }
 .nav ul li:hover ul {
-display:block;
+display:inline-block;
 }
 .nav ul ul {
 display:none;	
